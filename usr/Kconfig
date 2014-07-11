@@ -74,7 +74,7 @@ config RD_LZMA
 
 config RD_LZ4
 	bool "Support initial ramdisks compressed using LZ4" if EXPERT
-	default !EXPERT
+	default !EMBEDDED
 	depends on BLK_DEV_INITRD
 	select DECOMPRESS_LZ4
 	help
