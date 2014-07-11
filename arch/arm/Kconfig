@@ -28,7 +28,7 @@ config ARM
 
 config KERNEL_USE_GZIP
 	bool
-	default n
+	default y
 	select HAVE_KERNEL_GZIP
 	
 config KERNEL_USE_LZ4
@@ -38,7 +38,7 @@ config KERNEL_USE_LZ4
 
 config KERNEL_USE_LZO
 	bool
-	default y
+	default n
 	select HAVE_KERNEL_LZO
 
 config HAVE_PWM
