@@ -2657,7 +2657,7 @@ static struct mmc_platform_data msm7x2x_sdcc_data = {
 	.mmc_bus_width  = MMC_CAP_4_BIT_DATA,
 	.msmsdcc_fmin	= 144000,
 	.msmsdcc_fmid	= 24576000,
-	.msmsdcc_fmax	= 49152000,
+	.msmsdcc_fmax	= 64000000,
 	.nonremovable	= 0,
 #ifdef CONFIG_MMC_MSM_SDC1_DUMMY52_REQUIRED
 	.dummy52_required = 1,
@@ -2687,7 +2687,7 @@ static struct mmc_platform_data msm7x2x_sdcc_data_wifi = {
 #endif
 	.msmsdcc_fmin	= 144000,
 	.msmsdcc_fmid	= 24576000,
-	.msmsdcc_fmax	= 49152000,
+	.msmsdcc_fmax	= 64000000,
 	.nonremovable	= 1,
 #ifdef CONFIG_MMC_MSM_SDC2_DUMMY52_REQUIRED
 	.dummy52_required = 1,
