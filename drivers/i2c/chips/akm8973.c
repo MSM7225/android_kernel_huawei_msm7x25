@@ -846,7 +846,7 @@ int akm8973_probe(struct i2c_client *client, const struct i2c_device_id * devid)
 #if 0
 	AKECS_Reset();
 	AKECS_StartMeasure();
-	#endif
+#endif
 
 #ifdef CONFIG_HAS_EARLYSUSPEND
 	akm->early_suspend.level = EARLY_SUSPEND_LEVEL_BLANK_SCREEN + 1;
@@ -861,10 +861,10 @@ int akm8973_probe(struct i2c_client *client, const struct i2c_device_id * devid)
 	AKECS_Reset();
 
 	printk(KERN_INFO "Compass akm8973 is successfully probed.\n");
-    #ifdef CONFIG_HUAWEI_HW_DEV_DCT
+#ifdef CONFIG_HUAWEI_HW_DEV_DCT
     /* detect current device successful, set the flag as present */
     set_hw_dev_flag(DEV_I2C_COMPASS);
-    #endif
+#endif
 
 	return 0;
 
