@@ -414,7 +414,7 @@ CONFIG_ALIGNMENT_TRAP=y
 #
 CONFIG_ZBOOT_ROM_TEXT=0x0
 CONFIG_ZBOOT_ROM_BSS=0x0
-CONFIG_CMDLINE="mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8160 mtdparts=msm_nand:5120k@51200k(boot),5120k@57088k(recovery),1280k@129440k(misc),384k@63488k(splash),174080k@63872k(system),74752k@237952k(cache),170624k@312704k(userdata),20480k@483328k(userdata2),20480k@503808k(cust)"
+CONFIG_CMDLINE="mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8160 mtdparts=msm_nand:5120k@51200k(boot),5120k@57088k(recovery),1280k@62208k(misc),384k@63488k(splash),174080k@63872k(system),74752k@237952k(cache),170624k@312704k(userdata),20480k@483328k(userdata2),20480k@503808k(cust)"
 # CONFIG_XIP_KERNEL is not set
 # CONFIG_KEXEC is not set
 
